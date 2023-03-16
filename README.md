@@ -14,5 +14,5 @@
 **공모전 관련 포스터**
 
 
-    ![Untitled (2)](https://user-images.githubusercontent.com/78261259/225527685-4a99db8d-9219-4812-9852-06973fe652d4.png)
+![Untitled (2)](https://user-images.githubusercontent.com/78261259/225527685-4a99db8d-9219-4812-9852-06973fe652d4.png)
 
