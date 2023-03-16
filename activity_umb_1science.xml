@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/contents_1science"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".borrow_umb_1science">
+
+    <Button
+        android:id="@+id/btn_umb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="120dp"
+        android:text="우산1"
+        android:background="@drawable/button"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_umb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="우산2"
+        android:background="@drawable/button"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintStart_toEndOf="@+id/btn_umb1"
+        app:layout_constraintTop_toTopOf="@+id/btn_umb1" />
+
+    <Button
+        android:id="@+id/btn_umb3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:text="우산3"
+        android:background="@drawable/button"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_umb2"
+        app:layout_constraintTop_toTopOf="@+id/btn_umb2" />
+
+    <Button
+        android:id="@+id/btn_umb4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="우산4"
+        android:background="@drawable/button"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintStart_toStartOf="@+id/btn_umb1"
+        app:layout_constraintTop_toBottomOf="@+id/btn_umb1" />
+
+    <Button
+        android:id="@+id/btn_umb5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="우산5"
+        android:background="@drawable/button"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintStart_toEndOf="@+id/btn_umb4"
+        app:layout_constraintTop_toBottomOf="@+id/btn_umb2" />
+
+    <Button
+        android:id="@+id/btn_umb6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:text="우산6"
+        android:background="@drawable/button"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_umb5"
+        app:layout_constraintTop_toBottomOf="@+id/btn_umb3" />
+
+    <TextView
+        android:id="@+id/et_choice_umb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="우산을 선택해주세요"
+        android:textColor="@color/steelBlue"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_umb5" />
+
+    <TextView
+        android:id="@+id/science1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="제1 과기대"
+        android:textColor="@color/colorMidnightblue"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

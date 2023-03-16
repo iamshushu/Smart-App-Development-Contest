@@ -1,6 +1,4 @@
-# Smart-App-Development-Contest
+The name of the umbrella sharing application, 'Oh umbrella', is based on the shared economy system.
 
-#### 🏆 2020 스마트 APP 개발 공모전 최우수상 수상
-##### 👫 Team Project
-##### 🙋🏻 기획자, 디자이너 역할
-##### 💡 스마트 우산 공유 시스템 ( 어플리케이션을 통한 대여 및 반납 )
+Information on how to use and DB is attached to ppt.
+The demonstration video makes it easy to find out.
